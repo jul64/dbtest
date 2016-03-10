@@ -6,7 +6,7 @@ $dbname = getenv("MYSQL_DATABASE");
 $dbpwd = getenv("MYSQL_PASSWORD");
  
 
-
+echo "Hello All.. Here is maybe the list of users: <br>";
 $connection = mysqli_connect($dbhost.":".$dbport, $dbuser, $dbpwd, $dbname) or die("Error " . mysqli_error($connection));
 
 
